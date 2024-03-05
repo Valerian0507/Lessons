@@ -19,7 +19,6 @@
 
 // Операторы в JS
 
-// "use strict";
 // 
 // console.log('arr' + "- object");
 // console.log(4 + + "5");
@@ -59,7 +58,7 @@
 
 
 // if (num < 49) {
-//     console.log('Error');
+//     console.log('Errogr');
 // } else if (num > 100) {
 //     consolee.log('Много');
 // } else {
