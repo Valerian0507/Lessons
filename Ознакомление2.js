@@ -1,6 +1,6 @@
 // Интерполяция
 
-"use strict"
+"use strict";
 // 
 // const category = 'toys';
 // 
@@ -117,3 +117,12 @@
 
 
 
+// Функции
+
+function showFirstMessage() {
+    console.log(text);
+    let num = 20;
+}
+
+showFirstMessage("Hello World!");
+console.log(num);
