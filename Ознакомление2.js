@@ -1,6 +1,6 @@
 // Интерполяция
 
-"use strict";
+"use strict"
 // 
 // const category = 'toys';
 // 
