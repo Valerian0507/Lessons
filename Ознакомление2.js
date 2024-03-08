@@ -92,7 +92,7 @@
 // let num = 50;
 
 // while (num <=55) {
-//     console.log(num);
+    // console.log(num);
 //     num++;
 // }
 
@@ -118,49 +118,47 @@
 
 
 
-// Функции
+// // Функции
 
-let num = 20;
+// let num = 20;
 
-function showFirstMessage(text) {
-    console.log(text);
-    console.log(num);
-}
+// function showFirstMessage(text) {
+//     console.log(text);
+//     console.log(num);
+// }
 
-showFirstMessage("Hello World!");
-console.log(num);
+// showFirstMessage("Hello World!");
+// console.log(num);
 
-function calc(a, b){
-    return (a + b);
-}
+// function calc(a, b){
+//     return (a + b);
+// }
 
-console.log(calc(4, 3));
-console.log(calc(5, 6));
-console.log(calc(10, 6));
+// console.log(calc(4, 3));
+// console.log(calc(5, 6));
+// console.log(calc(10, 6));
 
 // Типы Функций
 // 1. Function Declaration
-function ret() {
-    let num = 50;
+// function ret() {
+//     let num = 50;
 
 
-// 
+//     return num;
+// }
 
-    return num;
-}
-
-const anotherNum = ret();
-console.log(anotherNum);
+// const anotherNum = ret();
+// console.log(anotherNum);
 
 // 2. Function Expression
-const logger = function() {
-    console.log("Hello");
-};
+// const logger = function() {
+//     console.log("Hello");
+// };
 
-logger();
+// logger();// 3. Function Flash
 
-// 3. Function Flash
-const cals = (a, b) => {
-    console.log('1');
-    return a +b;
-};
+// const cals = (a, b) => {
+//     console.log('1');
+//     return a +b;
+
+// };
