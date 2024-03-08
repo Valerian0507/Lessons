@@ -143,6 +143,7 @@
 // function ret() {
 //     let num = 50;
 
+// 
 
 //     return num;
 // }
@@ -162,3 +163,13 @@
 //     return a +b;
 
 // };
+
+
+
+
+// Методы свойства строк и чисел
+
+const str = "test";
+const arr = [1, 2, 4];
+
+console.log(arr.length);
