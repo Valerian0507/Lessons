@@ -125,3 +125,4 @@ function showFirstMessage() {
 
 showFirstMessage("Hello World!");
 console.log(num);
+
