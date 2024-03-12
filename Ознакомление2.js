@@ -1,6 +1,6 @@
 // Интерполяция
 
-"use strict";
+"use strict"
 // 
 // const category = 'toys';
 // 
@@ -40,6 +40,7 @@
 // isClose = false;
 // 
 // console.log(!isChecked || isClose);
+
 
 
 
@@ -91,7 +92,7 @@
 // let num = 50;
 
 // while (num <=55) {
-//     console.log(num);
+    // console.log(num);
 //     num++;
 // }
 
@@ -116,7 +117,8 @@
 
 
 
-// Функции
+
+// // Функции
 
 function showFirstMessage() {
     console.log(text);
@@ -125,4 +127,3 @@ function showFirstMessage() {
 
 showFirstMessage("Hello World!");
 console.log(num);
-
