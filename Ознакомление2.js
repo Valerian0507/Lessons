@@ -119,51 +119,90 @@
 
 // Функции
 
-let num = 20;
+// let num = 20;
 
-function showFirstMessage(text) {
-    console.log(text);
-    num = 10;
-    console.log(num);
-}
+// function showFirstMessage(text) {
+//     console.log(text);
+//     num = 10;
+//     console.log(num);
+// }
 
-showFirstMessage("Hello World!");
-console.log(num);
-
-
-
-
-console.log(calc(4, 3));
-console.log(calc(5, 6));
-console.log(calc(10,6));
-
-function calc(a, b) {
-    return (a + b);
-}
+// showFirstMessage("Hello World!");
+// console.log(num);
 
 
 
-function ret() {
-    let num = 50;
 
-    // 
+// console.log(calc(4, 3));
+// console.log(calc(5, 6));
+// console.log(calc(10,6));
 
-    return num;
-}
-
-const anotherNum = ret();
-console.log(anotherNum);
+// function calc(a, b) {
+//     return (a + b);
+// }
 
 
-const logger = function() {
-    console.log("Hello");
 
-}
+// function ret() {
+//     let num = 50;
 
-logger();
+//     // 
+
+//     return num;
+// }
+
+// const anotherNum = ret();
+// console.log(anotherNum);
 
 
-const calc = (a, b) => {
-    console.log('1');
-    return a + b;
-};
+// const logger = function() {
+//     console.log("Hello");
+
+// }
+
+// logger();
+
+
+// const calc = (a, b) => {
+//     console.log('1');
+//     return a + b;
+// };
+
+
+
+
+
+
+
+
+
+
+// Методы и свойства строок и числе
+
+const str = "teSt";
+const arr = [1, 2, 4];
+
+// console.log(str[2] = 'd');
+
+// console.log(str.toUpperCase());
+console.log(str.toLowerCase());
+console.log(str);
+
+const fruit = "Some fruit";
+
+console.log(fruit.indexOf("q"));
+
+const logg = "Hello World";
+
+// console.log(logg.slice(6, 11));
+
+// console.log(logg.substring(6, 11));
+
+console.log(logg.substr(6, 5));
+
+const num = 12.2;
+console.log(Math.round(num));
+
+const text = "12.2px";
+// console.log(parseInt(text));
+console.log(parseFloat(text));
