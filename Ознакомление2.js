@@ -439,31 +439,174 @@
 
 // Основы ООП, прототипно-ориентированное наследование
 
-let str = "some";
-let strObj = new String(str);
+// let str = "some";
+// let strObj = new String(str);
 
 // console.log(typeof(str));
 // console.log(typeof(strObj));
 
-console.dir([1,2,3]);
+// console.dir([1,2,3]);
 
-const soldier = {
-    health: 400,
-    armor: 100,
-    sayHello: function() {
-        console.log("Hello");
-    }
-};
-
-const john = Object.create(soldier);
-
+// const soldier = {
+//     health: 400,
+//     armor: 100,
+//     sayHello: function() {
+//         console.log("Hello");
+//     }
+// };
+// const john = Object.create(soldier);
 // const john = {
     // health: 100
 // };
-
 // john.__proto__ = soldier;
-
 // Object.setPrototypeOf(john, soldier);
-
 // console.log(john.armor);
-john.sayHello();
+// john.sayHello();
+
+
+
+
+
+// Отлавливаем ошибки в своем коде при помощи консоли разработчика Breakpoints
+
+
+
+// function hello() {
+//     console.log("Hello World");
+//     debugger;
+// }
+
+// hello;
+
+// function hi() {
+//     console.log('Say hi!')
+// }
+
+// hi();
+
+// const arr = [1, 14, 4, 30, 53],
+//       sorted = arr.sort(compareNum);
+
+// function compareNum(a, b) {
+//     return a - b;
+// }
+
+// console.log(sorted);
+
+
+
+
+
+// Динамическая типизация в JS
+
+// To String
+
+// 1)
+// console.log(typeof(String(null)));
+// console.log(typeof(String(4)));
+
+// 2)
+// console.log(typeof(null + ''));
+
+// const num = 5;
+
+// console.log("https://vk.com/catalog/" + num);
+
+// const fontSize = 26 + 'px';
+
+// To Number
+
+// 1)
+// console.log(typeof(Number(4)));
+
+// 2)
+// console.log(typeof(+'5'));
+
+// 3)
+// console.log(typeof(parseInt("15px", 10)));
+
+
+// let answ = +prompt("Hello", "");
+
+// To Boolean
+
+// 0, '', null, undefined, NaN;
+
+// 1)
+// let switcher = null;
+
+// if (switcher) {
+//     console.log('Working...');
+// }
+
+// switcher = 1;
+
+// if (switcher) {
+//     console.log('Working...');
+// }
+
+// 2)
+
+// console.log(typeof(Number(4)));
+
+// 3)
+// console.log(typeof(!!"12345"));
+
+
+
+
+
+
+// Задачи с собеседований на понимание основ
+
+// 1)
+// let x = 5; alert( x++ );? "В браузере покажет 5 если поставить ++ перед x то будет 6";
+
+// 2)
+// [ ] + false - null + true ?
+// console.log(typeof([] + false - null + true)); "Nan или number";
+
+// 3)
+// let y = 1; 
+// let x = y = 2; 
+// alert(x);? "2"; 
+
+// 4)
+// [] + 1 + 2;?
+// console.log([] +1 +2); "12";
+
+// 5)
+// alert( "1"[0] );? "1";
+
+// 6)
+// 2 && 1 && null && 0 && undefined ?
+// console.log(2 && 1 && null && 0 && undefined);? 
+// "И запинается на лжи";
+// "ИЛИ запинается на правде";
+
+// 7)
+// !!( a && b ) и (a && b) ?
+// console.log(!!( 1 && 2 ) === (1 && 2));
+
+// 8)
+// alert( null || 2 && 3 || 4 ); ? "3";
+                //  
+// alert( null || 2 && 3 || 4 ); ? "3";
+
+// 9)
+// a = [1, 2, 3]; b = [1, 2, 3];? "false";
+// const a = [1, 2, 3];
+// const b = [1, 2, 3];
+
+// console.log(a == b); 
+
+// 10)
+// alert( +"Infinity" ); ? "Infinity";
+
+// 11)
+// "Ёжик" > "яблоко"? "false";
+// console.log("Ёжик" > "яблоко"); 
+
+// 12)
+// 0 || "" || 2 || undefined || true || falsе ? "2";
+console.log(0 || "" || 2 || undefined || true || falsе);
