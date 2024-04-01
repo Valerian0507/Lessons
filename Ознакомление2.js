@@ -1,7 +1,79 @@
 // Интерполяция
 
 "use strict"
-// 
+
+
+
+
+
+
+// Правила и типы названия переменных
+
+// const vehicleBodyWidth = 5000,
+    //   vehicleBodyLenght = 4000;
+
+// console.log("Ширина кузова автомобиля: " + vehicleBodyWidth + ', длина:' + vehicleBodyLenght);
+
+// ['adscd', 'daasd', 'dafsad'].map(a =>)
+
+// Request
+// data
+// response
+
+// snake_case
+// UPPER_SNAKE_CASE
+// Kebab-case
+// PascalCase
+
+// let COLORE_RED = '#F00';
+
+// const _apiBase = 'https://gateway.marvel.com:443/v1/public/';
+// ЗДЕСЬ БУДЕТ ВАШ КЛЮЧ, ЭТОТ КЛЮЧ МОЖЕТ НЕ РАБОТАТЬ
+// const _apiKey = 'apikey=d4eecb0c666edbfae4eab45d312fcldf';
+
+
+
+
+
+
+
+// Разница между обьектами и массивами и неочевиддные синтаксические возможности
+
+const arr = ['a', 'b', 'c'];
+
+arr[10] = '3456';
+
+console.log(arr);
+
+const arrObj = {
+    a: 'a',
+    '1': 'b',
+    2: 'c',
+    abc: {
+        df: [{}, {}],
+        def: {
+
+        }
+    }
+};
+
+const b = 'b';
+
+arrObj.b = '1234';
+arrObj['b'] = '1234';
+
+console.log(arrObj['b']);
+console.log(arrObj.b);
+
+
+// const obj = {a: 1, b: 2};
+
+// const obj = {
+//     'Anna': 500,
+//     'Alice': 800
+// };
+
+
 // const category = 'toys';
 // 
 // console.log(`https://someurl.com/${category}/5`);
@@ -249,8 +321,6 @@
 
 // Обьекты, деструктуризация обьектов
 
-
-
 // const options = {
     // name: 'test',
     // width: 1024,
@@ -292,6 +362,8 @@
 //     }
 // }
 // console.log(counter);
+
+
 
 
 
@@ -621,34 +693,44 @@
 
 // logNumber();debugger
 
-function createCounter() {
-    let counter = 0;
+// function createCounter() {
+//     let counter = 0;
 
-    const myFunction = function() {debugger
-        counter = counter + 1;debugger
-        return counter;debugger
-    }
+//     const myFunction = function() {debugger
+//         counter = counter + 1;debugger
+//         return counter;debugger
+//     }
 
-    return myFunction;
-}
-debugger
-const increment = createCounter();debugger
-const c1 = increment();debugger
-const c2 = increment();debugger
-const c3 = increment();debugger
+//     return myFunction;
+// }
+// debugger
+// const increment = createCounter();debugger
+// const c1 = increment();debugger
+// const c2 = increment();debugger
+// const c3 = increment();debugger
 
-console.log(c1,c2, c3);
+// console.log(c1,c2, c3);
 
-{
-    let msg = 'Hello';
-}
+// {
+//     let msg = 'Hello';
+// }
 
-console.log(msg);
+// console.log(msg);
 
-for (let i = 0; i < 9; i ++) {
-    for (let j = 0; j < 9; j ++) {
-        let num = 3;
-    }
+// for (let i = 0; i < 9; i ++) {
+//     for (let j = 0; j < 9; j ++) {
+//         let num = 3;
+//     }
 
-    console.log(num);
-}
+//     console.log(num);
+// }
+
+
+
+
+
+
+
+
+
+
