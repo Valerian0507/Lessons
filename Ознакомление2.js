@@ -39,31 +39,31 @@
 
 // Разница между обьектами и массивами и неочевиддные синтаксические возможности
 
-const arr = ['a', 'b', 'c'];
+// const arr = ['a', 'b', 'c'];
 
-arr[10] = '3456';
+// arr[10] = '3456';
 
-console.log(arr);
+// console.log(arr);
 
-const arrObj = {
-    a: 'a',
-    '1': 'b',
-    2: 'c',
-    abc: {
-        df: [{}, {}],
-        def: {
+// const arrObj = {
+//     a: 'a',
+//     '1': 'b',
+//     2: 'c',
+//     abc: {
+//         df: [{}, {}],
+//         def: {
 
-        }
-    }
-};
+//         }
+//     }
+// };
 
-const b = 'b';
+// const b = 'b';
 
-arrObj.b = '1234';
-arrObj['b'] = '1234';
+// arrObj.b = '1234';
+// arrObj['b'] = '1234';
 
-console.log(arrObj['b']);
-console.log(arrObj.b);
+// console.log(arrObj['b']);
+// console.log(arrObj.b);
 
 
 // const obj = {a: 1, b: 2};
@@ -187,6 +187,74 @@ console.log(arrObj.b);
 
 
 
+// Циклы в цикле и метки
+
+// for (let i = 0; i < 3; i++) {
+//     console.log(i);
+//     for (let j = 0; j < 3; j++) {
+//         console.log(j);
+//     }
+// }
+
+
+    // for (let i = 20; i > 0; i--) {
+    //     console.log(i);
+    //     if (i === 10) break;
+    // }
+
+
+    // for (let i = 2; i <= 10; i++) {
+    //     if (i % 2 === 0) {
+    //         console.log(i);
+    //     }
+    // }
+
+
+
+    // let i = 2;
+    // while (i <= 16) {
+    //     if (i % 2 === 0) {
+    //         i++;
+    //         continue;
+    //     } else {
+    //         console.log(i);
+    //     }
+    //     i++;
+    // }
+    
+
+
+// *
+// **
+// ***
+// ****
+// *****
+// ******
+
+// let result = '';
+// const length = 7;
+
+// for (let i = 1; i < length; i++) {
+
+//     for(let j = 0; j < i; j++) {
+//         result += "*";
+//     }
+
+//     result += '\n';
+// }
+
+// console.log(result);
+
+// first: for (let i = 0; i < 3; i++) { 
+//     console.log(`First level: ${i}`);
+//     for (let j = 0; j < 3; j++) {
+//         console.log(`Second level: ${j}`);
+//         for (let k = 0; k < 3; k++) {
+//             if (k === 2) break first;
+//             console.log(`Third level: ${k}`);
+//         }
+//     }
+// }
 
 
 // Функции
